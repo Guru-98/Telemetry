@@ -47,13 +47,14 @@ public class TelemetryService extends IntentService {
 
             if (!TextUtils.isEmpty(url)) {
                 try {
-                    int results = downloadData(url);
+                    int[] results = downloadData(url);
 
                 /* Sending result back to activity */
 
-                        bundle.putInt("result", results);
-                        Log.d("Sending",bundle.toString());
-                        receiver.send(STATUS_FINISHED, bundle);
+                    bundle.putInt("speed", results[0]);
+                    bundle.putInt("gear", results[1]);
+                    Log.d("Sending", bundle.toString());
+                    receiver.send(STATUS_FINISHED, bundle);
 
                 } catch (Exception e) {
 
@@ -66,7 +67,7 @@ public class TelemetryService extends IntentService {
         }
     }
 
-    private int downloadData(String requestUrl) throws IOException, DownloadException {
+    private int[] downloadData(String requestUrl) throws IOException, DownloadException {
         InputStream inputStream = null;
         HttpURLConnection urlConnection = null;
 
@@ -88,7 +89,7 @@ public class TelemetryService extends IntentService {
         if (statusCode == 200) {
             inputStream = new BufferedInputStream(urlConnection.getInputStream());
             String response = convertInputStreamToString(inputStream);
-            int results = parseSpeed(response);
+            int[] results = new int[]{parseSpeed(response), parseGear(response)};
             return results;
         } else {
             throw new DownloadException("Failed to fetch data!!");
@@ -116,14 +117,30 @@ public class TelemetryService extends IntentService {
     private int parseSpeed(String result) {
 
         int Speed = 0;
+        int Gear = 0;
         try {
             JSONObject response = new JSONObject(result);
+            response = response.getJSONObject("TxData");
             Speed = response.getInt("Speed");
 
         } catch (JSONException e) {
             e.printStackTrace();
         }
         return Speed;
+    }
+
+    private int parseGear(String result) {
+
+        int Gear = 0;
+        try {
+            JSONObject response = new JSONObject(result);
+            response = response.getJSONObject("TxData");
+            Gear = response.getInt("Gear");
+
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+        return Gear;
     }
 
     public class DownloadException extends Exception {

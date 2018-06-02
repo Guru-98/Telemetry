@@ -6,20 +6,23 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     >
+
     <Button
         android:id="@+id/log_refresh_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Refresh"/>
+        android:layout_marginTop="?attr/actionBarSize"
+        android:paddingTop="10dp"
+        android:text="Refresh" />
 
     <ScrollView
 
         android:layout_height="match_parent"
         android:layout_width="match_parent">
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/textViewSocket"
-        />
+
+        <TextView
+            android:id="@+id/textViewSocket"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
     </ScrollView>
 </LinearLayout>

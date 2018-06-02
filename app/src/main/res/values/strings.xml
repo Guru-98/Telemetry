@@ -1,33 +1,5 @@
 <resources>
     <string name="app_name">Telemetry</string>
-    <string name="test_string">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente mollitia facilis laudantium facere nihil voluptatem alias ducimus id, consequuntur at blanditiis explicabo culpa error impedit animi tempore sunt neque vel.\
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente mollitia facilis laudantium facere nihil voluptatem alias ducimus id, consequuntur at blanditiis explicabo culpa error impedit animi tempore sunt neque vel.\
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente mollitia facilis laudantium facere nihil voluptatem alias ducimus id, consequuntur at blanditiis explicabo culpa error impedit animi tempore sunt neque vel.\
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente mollitia facilis laudantium facere nihil voluptatem alias ducimus id, consequuntur at blanditiis explicabo culpa error impedit animi tempore sunt neque vel.\
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente mollitia facilis laudantium facere nihil voluptatem alias ducimus id, consequuntur at blanditiis explicabo culpa error impedit animi tempore sunt neque vel.\
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente mollitia facilis laudantium facere nihil voluptatem alias ducimus id, consequuntur at blanditiis explicabo culpa error impedit animi tempore sunt neque vel.\
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente mollitia facilis laudantium facere nihil voluptatem alias ducimus id, consequuntur at blanditiis explicabo culpa error impedit animi tempore sunt neque vel.\
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente mollitia facilis laudantium facere nihil voluptatem alias ducimus id, consequuntur at blanditiis explicabo culpa error impedit animi tempore sunt neque vel.\
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente mollitia facilis laudantium facere nihil voluptatem alias ducimus id, consequuntur at blanditiis explicabo culpa error impedit animi tempore sunt neque vel.\
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente mollitia facilis laudantium facere nihil voluptatem alias ducimus id, consequuntur at blanditiis explicabo culpa error impedit animi tempore sunt neque vel.\
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente mollitia facilis laudantium facere nihil voluptatem alias ducimus id, consequuntur at blanditiis explicabo culpa error impedit animi tempore sunt neque vel.\
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente mollitia facilis laudantium facere nihil voluptatem alias ducimus id, consequuntur at blanditiis explicabo culpa error impedit animi tempore sunt neque vel.\
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente mollitia facilis laudantium facere nihil voluptatem alias ducimus id, consequuntur at blanditiis explicabo culpa error impedit animi tempore sunt neque vel.\
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente mollitia facilis laudantium facere nihil voluptatem alias ducimus id, consequuntur at blanditiis explicabo culpa error impedit animi tempore sunt neque vel.\
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente mollitia facilis laudantium facere nihil voluptatem alias ducimus id, consequuntur at blanditiis explicabo culpa error impedit animi tempore sunt neque vel.\
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente mollitia facilis laudantium facere nihil voluptatem alias ducimus id, consequuntur at blanditiis explicabo culpa error impedit animi tempore sunt neque vel.\
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente mollitia facilis laudantium facere nihil voluptatem alias ducimus id, consequuntur at blanditiis explicabo culpa error impedit animi tempore sunt neque vel.\
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente mollitia facilis laudantium facere nihil voluptatem alias ducimus id, consequuntur at blanditiis explicabo culpa error impedit animi tempore sunt neque vel.\
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente mollitia facilis laudantium facere nihil voluptatem alias ducimus id, consequuntur at blanditiis explicabo culpa error impedit animi tempore sunt neque vel.\
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente mollitia facilis laudantium facere nihil voluptatem alias ducimus id, consequuntur at blanditiis explicabo culpa error impedit animi tempore sunt neque vel.\
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente mollitia facilis laudantium facere nihil voluptatem alias ducimus id, consequuntur at blanditiis explicabo culpa error impedit animi tempore sunt neque vel.\
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente mollitia facilis laudantium facere nihil voluptatem alias ducimus id, consequuntur at blanditiis explicabo culpa error impedit animi tempore sunt neque vel.\
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente mollitia facilis laudantium facere nihil voluptatem alias ducimus id, consequuntur at blanditiis explicabo culpa error impedit animi tempore sunt neque vel.\
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente mollitia facilis laudantium facere nihil voluptatem alias ducimus id, consequuntur at blanditiis explicabo culpa error impedit animi tempore sunt neque vel.\
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente mollitia facilis laudantium facere nihil voluptatem alias ducimus id, consequuntur at blanditiis explicabo culpa error impedit animi tempore sunt neque vel.\
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente mollitia facilis laudantium facere nihil voluptatem alias ducimus id, consequuntur at blanditiis explicabo culpa error impedit animi tempore sunt neque vel.\
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente mollitia facilis laudantium facere nihil voluptatem alias ducimus id, consequuntur at blanditiis explicabo culpa error impedit animi tempore sunt neque vel.
-    </string>
     <string name="tab_one">Main</string>
     <string name="tab_end">Debug</string>
     <string name="title_activity_main2">Main2Activity</string>

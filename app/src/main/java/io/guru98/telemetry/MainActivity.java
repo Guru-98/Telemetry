@@ -1,6 +1,7 @@
 package io.guru98.telemetry;
 
 import android.os.Bundle;
+import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -33,6 +34,7 @@ public class MainActivity extends AppCompatActivity
         toggle.syncState();
 
         NavigationView navigationView = findViewById(R.id.nav_view);
+        //navigationView.getMenu().getItem(R.id.navigation_dashboard).setChecked(true);
         navigationView.setNavigationItemSelectedListener(this);
     }
 
@@ -47,16 +49,17 @@ public class MainActivity extends AppCompatActivity
     }
 
     @Override
-    public boolean onNavigationItemSelected(MenuItem item) {
-        Fragment fragment = new Maintab();
+    public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+        Fragment fragment = null;
         switch(item.getItemId()) {
             case R.id.navigation_log:
                 fragment = new Debugtab();
                 break;
             case R.id.navigation_dashboard:
-                fragment = new Maintab();
+                fragment = new Dashtab();
                 break;
         }
+
         FragmentManager fragmentManager = getSupportFragmentManager();
         FragmentTransaction ft = fragmentManager.beginTransaction();
         ft.replace(R.id.content_frame, fragment);

@@ -2,11 +2,8 @@
 <resources>
     <color name="primary">#8BC34A</color>
     <color name="primary_dark">#689f38</color>
-    <color name="accent">#448AFF</color>
+    <color name="accent">#448aff</color>
 
-    <!--<color name="car_primary">@color/car_body1</color>-->
-    <!--<color name="car_accent">@color/car_red_700</color>-->
-
-    <!--<color name="car_body1_inverted">@color/car_body1_light</color>-->
-    <color name="cardview_background">@color/cardview_light_background</color>
+    <color name="gearSelect">#757575</color>
+    <color name="gearNSelect">#64dd17</color>
 </resources>
