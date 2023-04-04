@@ -3,8 +3,8 @@ package io.guru98.telemetry;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
-import android.support.annotation.Nullable;
-import android.support.v4.app.Fragment;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -18,6 +18,7 @@ import com.github.anastr.speedviewlib.SpeedView;
  * Created by guru9 on 21/3/2018.
  */
 
+@SuppressWarnings("SpellCheckingInspection")
 public class Dashtab extends Fragment implements TelemetryDataReceiver.Receiver {
 
     private final String TAG = "MainTab Fragment";
@@ -127,7 +128,7 @@ public class Dashtab extends Fragment implements TelemetryDataReceiver.Receiver 
         super.onPause();
         Log.d(TAG, "Pausing Fragment");
         intent = new Intent(Intent.ACTION_SYNC, null, getContext(), TelemetryService.class);
-        Log.d(TAG, "Stoping Service");
+        Log.d(TAG, "Stopping Service");
         getActivity().stopService(intent);
     }
 
@@ -136,7 +137,7 @@ public class Dashtab extends Fragment implements TelemetryDataReceiver.Receiver 
         Log.d(TAG, "Destroying Fragment");
         super.onDestroyView();
         intent = new Intent(Intent.ACTION_SYNC, null, getContext(), TelemetryService.class);
-        Log.d(TAG, "Stoping Service");
+        Log.d(TAG, "Stopping Service");
         getActivity().stopService(intent);
     }
 }
